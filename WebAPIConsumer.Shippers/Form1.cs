@@ -30,7 +30,7 @@ namespace WebAPIConsumer.Shippers
             "application/json");
             var client = new HttpClient();
             client.BaseAddress =
-            new Uri("http://localhost:50090/");
+            new Uri("https://localhost:44394/");
             client.DefaultRequestHeaders.Accept.Clear();
 
             client.DefaultRequestHeaders
