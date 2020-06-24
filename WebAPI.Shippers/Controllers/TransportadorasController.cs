@@ -18,9 +18,10 @@ namespace WebAPI.Shippers.Controllers
         }
 
         // GET api/<controller>/5
-        public string Get(int id)
+        public Transportadora Get(int id)
         {
-            return "value";
+            var db = new NorthwindEntities();
+            return db.Transportadoras.Find(id);
         }
 
         // POST api/<controller>
