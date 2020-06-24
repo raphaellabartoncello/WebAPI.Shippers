@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.telTextBox = new System.Windows.Forms.TextBox();
+            this.nomeTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -54,19 +54,19 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Telefone:";
             // 
-            // textBox1
+            // telTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(35, 99);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 20);
-            this.textBox1.TabIndex = 2;
+            this.telTextBox.Location = new System.Drawing.Point(35, 99);
+            this.telTextBox.Name = "telTextBox";
+            this.telTextBox.Size = new System.Drawing.Size(196, 20);
+            this.telTextBox.TabIndex = 2;
             // 
-            // textBox2
+            // nomeTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(35, 36);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 20);
-            this.textBox2.TabIndex = 3;
+            this.nomeTextBox.Location = new System.Drawing.Point(35, 36);
+            this.nomeTextBox.Name = "nomeTextBox";
+            this.nomeTextBox.Size = new System.Drawing.Size(196, 20);
+            this.nomeTextBox.TabIndex = 3;
             // 
             // button1
             // 
@@ -97,8 +97,8 @@
             this.ClientSize = new System.Drawing.Size(268, 215);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.nomeTextBox);
+            this.Controls.Add(this.telTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "TransportadoraForm";
@@ -112,8 +112,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox telTextBox;
+        private System.Windows.Forms.TextBox nomeTextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
